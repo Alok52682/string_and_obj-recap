@@ -7,4 +7,6 @@ for (const letter of sentence) {
 }
 
 // console.log(reverse);
+const reversed = sentence.split('').reverse().join('');
 
+console.log(reversed);
