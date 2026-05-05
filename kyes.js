@@ -14,6 +14,25 @@ const computer = {
     }
 };
 
+const company = {
+    name: "TechCorp",
+    location: "San Francisco",
+    specs: {
+        revenue: "2 Billion",
+        employees: 500,
+        isPublic: true
+    },
+    department: {
+        name: "Engineering",
+        lead: {
+            firstName: "Sarah",
+            lastName: "Chen",
+            role: "CTO"
+        }
+    }
+};
+
+
 const kyes = Object.keys(computer);
 
-console.log(kyes);
+console.log(company.department.lead.role);
