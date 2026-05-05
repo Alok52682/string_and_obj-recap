@@ -2,4 +2,6 @@ const Abid = 'abid';
 const Abir = 'abir';
 const Sohan = 'sohan';
 
-console.log(Abid.concat(' ').concat(Sohan))
+console.log(Abid.concat(' ').concat(Sohan));
+
+console.log(Abir.includes('i'));
