@@ -16,3 +16,16 @@ console.log(person.age);
 
 console.log(person['fav places']);
 
+
+// changing value
+
+console.log(person.age);
+
+person.age = 45;
+
+console.log(person.age);
+
+person['fav places'] = ["Tokyo", "Paris", "New York", "London", "Sydney", "Tokyo"];
+
+
+console.log(person['fav places'])
