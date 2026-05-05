@@ -31,3 +31,11 @@ const pencil = new Object()
 const rubber = Object.create({})
 
 console.log(pencil, rubber)
+
+
+function sum(num1, num2) {
+    const total = num1 + num2;
+    return total;
+}
+
+console.log(sum(10, 20));
