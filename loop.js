@@ -8,13 +8,26 @@ const mobile = {
 };
 
 for (const props in mobile) {
-    console.log(mobile[props])
+    // console.log(mobile[props])
 }
 
 const keys = Object.keys(mobile)
 
 for (const key of keys) {
-    console.log(mobile[key])
+    // console.log(mobile[key])
 }
 
 // console.log(keys);
+
+
+const pen = {
+    brand: "Parker",
+    inkColor: "Blue",
+    type: "Ballpoint",
+    isRefillable: true
+};
+
+const pencil = new Object()
+const rubber = Object.create({})
+
+console.log(pencil, rubber)
